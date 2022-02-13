@@ -1,0 +1,25 @@
+.part1{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0rem;
+}
+.part1>ul{
+    display: flex;
+    margin-top: 4.5vh;
+}
+li>img{
+    height: 4vh;
+    width: 3vw;
+    margin-right:2vw ;
+}
+.part1>h2{
+    font-family:sans-serif;
+}
+.part1>input{
+    width: 20vw;
+    height: 6vh;
+    margin-top: 4vh;
+    border-radius: 0.5rem;
+    border: 0ch;
+    background-color: rgb(236, 229, 229);
+}
