@@ -20,7 +20,7 @@
     border-radius: 0.5rem;
     width: 16rem;
     height:2.3rem;
-    font-size:1rem ;
+    font-size:1rem;
   }
 
 
@@ -79,8 +79,101 @@
 
 .statusbar p{
     margin-top: 0;
+    color: rgb(61, 58, 58);
+    font-weight: 100;
+    font-size: 0.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.maincontent{
+    display: flex;   
+}
+
+.rightpart{
+    width: 25vw;
+    height: 80vh;
+    margin-top: 9vh;
+    margin-left: 2vw;
+    /* border: 3px black solid; */
+}
+.rightpart>.myid>.myidleft>img{
+    height:4rem;
+    width:4rem;
+    margin-right:1vw;
+}
+.rightpart>p{
+    color: rgb(153, 151, 151);
+}
+.suggestions{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+    color: rgb(143, 139, 139);
+    font-weight: 700;
+}
+
+.posts{
+    height: 200vh;
+    width: 50vw;
+   border: 3px black solid;
+   margin-left: 13vw; 
+   margin-top: 5vh;
+   border: 1px rgb(211, 206, 206) solid;
+   border-radius: 0.2rem;
+}
+.myid{
+    display: flex;
+    justify-content: space-between;
+}
+.myidleft{
+    display: flex;
+}
+
+.myidright>a{
+    text-decoration-line: none;
+    color:rgb(15, 90, 252);
+    font-size:0.9rem;
+    font-weight: 600;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.myidright{
+    margin-top: 2vh;
 }
 
 
 
+
+.othersid{
+    display: flex;
+    justify-content: space-between;
+}
+.othersidleft{
+    display: flex;
+}
+
+.othersidright>a{
+    text-decoration-line: none;
+    color:rgb(15, 90, 252);
+    font-size:0.9rem;
+    font-weight: 600;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.othersidright{
+    margin-top: 2vh;
+}
+.rightpart>.othersid>.othersidleft>img{
+    height:2.5rem;
+    width:2.5rem;
+    margin-right:1vw;
+}
+.othersidleft>p{
+    margin-top: 0;
+}
+.rightlast>p{
+    font-size: 0.8rem;
+    color: rgb(167, 165, 165);
+}
 
