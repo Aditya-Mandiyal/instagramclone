@@ -116,7 +116,7 @@
 }
 
 .posts{
-    height: 200vh;
+    height: 173vh;
     width: 50vw;
    border: 3px black solid;
    margin-left: 13vw; 
@@ -176,4 +176,71 @@
     font-size: 0.8rem;
     color: rgb(167, 165, 165);
 }
+.postsId{
+    display: flex;
+    margin-top: 1.5vh;
+}
+.postsId>img{
+    height:2.5rem;
+    width:2.5rem;
+    border-radius: 50%;
+    border: 3px rgb(236, 32, 76) solid;
+    padding: 2px;
+    margin-left: 1.5vw;
+}
+#threedots{
+    margin-left: 31vw;
+}
+.postsId>p{
+    margin-left:1vw;
+}
+.posts>img{
+    width: 50vw;
+    margin-top: 2vh;
+}
+.postlikecomment{
+    display: flex;
+    justify-content:space-between;
+}
+.LikeComment{
+    display: flex;
+}
+.LikeComment>img{
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-left:1.5vw ;
+}
 
+a[src="images/bookmark.png"]{
+    margin-left: 30vw;
+}
+.bookmark>img{
+    height: 1.7rem;
+    width: 1.5rem;
+    margin-right: 2vw;
+}
+.like{
+    font-weight: 550;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:0.9rem;
+    margin-left: 1.5vw;
+    margin-bottom:0vh;
+}
+.postdis{
+    margin-left: 1.5vw;
+    margin-top: 1vh;
+    margin-bottom: 0;
+}   
+.postdis>span{
+    color: gray;
+}
+.posttime{
+    font-size: 0.75rem;
+}
+.addcomment span{
+    color: rgb(42, 154, 219);
+}
+.addcomment>p{
+    color:grey;
+    margin-left: 1.5vw;
+}
